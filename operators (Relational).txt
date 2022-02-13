@@ -1,0 +1,27 @@
+using system;
+using system.collection.generics;
+using system.linq;
+using system.text;
+using system.Threading.Tasks;
+
+class Relational_operators
+{
+	static void Main (String [] args)
+	{
+		int x = 10;
+		int y = 15;
+		bool result;
+		result = (x == y);
+		console.writeline("{0}=={1}return{2}",x,y,res);
+		result = (x > y);
+		console.writeline("{0}>{1}returns{2}",x,y,result);
+		result = (x < y);
+		console.writeline("{0}<{1}return{2}",x,y,result);
+		result = (x >= y);
+		console.writeline("{0}>={1}return{2}",x,y,result);
+		result = (x <= y);
+		console.writeline("{0}<={2}return{2}",x,y,result);
+		result = (x! = y);
+		console.writeline("{0}!={1}return{2}",x,y,result);
+	}
+}
