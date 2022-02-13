@@ -1,0 +1,28 @@
+using system;
+using system.collection.generics;
+using system.linq;
+using system.text;
+using system.Threading.Tasks;
+
+class Bitwise_operations
+{
+	static void Main()
+	{
+		int firstnumber = 10;
+		int secondnumber = 20;
+		int result;
+		
+		result= ~ firstnumber;
+			console.writeline("~{0}={1]",firstnumber,result);
+		result = firstnumber & secondnumber;
+			console.writeline("{0}&{1}={2}",firstnumber,secondnumber,result);
+		result = firstnumber | secondnumber;
+			console.writeline("{0}|{1}={2}",firstnumber,secondnumber,result);
+		result = firstnumber ^ secondnumber;
+			console.writeline("{0}^{1}={2}",firstnumber,secondnumber,result);
+		result = firsenumber<<2;
+			console.writeline("{0}<<2={1}",firstnumber,result);
+		result = firstnumber>>2;
+			console.writeline("{0}>>2={1}",firstnumber,result);
+	}
+}
