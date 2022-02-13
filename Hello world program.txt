@@ -1,0 +1,17 @@
+using system;
+using system.collection.generics;
+using system.linq;
+using system.text;
+using system.Threading.Tasks;
+
+namespace consoleapp1
+{
+	class Program
+	{
+		Static void main (string [] args)
+		{
+			console.writeline("Hello, World!");
+			console.Readline();
+		}
+	}
+}
